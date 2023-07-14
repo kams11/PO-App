@@ -1,0 +1,132 @@
+<core:FragmentDefinition
+       xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+        xmlns="sap.m"
+		xmlns:l="sap.ui.layout"
+        xmlns:form="sap.ui.layout.form"
+    	xmlns:core="sap.ui.core" 
+        height="100%">
+        
+    <Panel class="sapUiTinyMarginTop"
+   height="400px">
+        <form:SimpleForm  editable="false">
+            <VBox >
+                <HBox >
+                    <Label text="Purchase Order:"/>
+					<Text text="{'app>/REQUEST_LogsInfo/0/PURCHASE_ORDER/PURCHASE_ORDER_NO}" />
+                </HBox>
+                <HBox >
+                    <Label text="Delivery Location refering to:"/>
+					<Text text="{app>/REQUEST_LogsInfo/0/PURCHASE_ORDER/INCOTERMS_DEL_LOC}" />
+                </HBox>
+            </VBox>
+            <VBox >
+                <HBox >
+                    <Label text="Incoterms:"/>
+					<Text text="{app>/REQUEST_LogsInfo/0/PURCHASE_ORDER/INCOTERMS}" />
+                </HBox>
+                <HBox >
+                    <Label text="Incotermsprice basis"/>
+					<Text text="{}" />
+                </HBox>
+            </VBox>
+                                
+								
+		</form:SimpleForm>
+
+        <Toolbar>
+					<Title level="H3" text="Shipping Details" />
+					<ToolbarSpacer />
+		</Toolbar>
+        <form:SimpleForm editable="true" id="shippingformreview" binding="{formData>/}">
+    <form:content>
+        <Label text="Shipping date" />
+        <Text text="{formData>/selectedDate}" />
+
+        <Label text="Carrier" />
+        <Text text="{formData>carrier}" />
+
+        <Label text="Tracking number" />
+        <Text text="{formData>trackingNumber}" />
+
+        <Label text="Country of Origin" />
+        <Text text="{formData>countryOfOrigin}" />
+    </form:content>
+</form:SimpleForm>
+
+
+    
+        	<Table
+            id="idShipmentData"
+            inset="false"
+            items="{path: 'app>/REQUEST_LogsInfo/0/PURCHASE_ORDER/LINE_ITEMS'}" 
+        >
+				
+		<headerToolbar>
+			<OverflowToolbar>
+				<content>
+					<Title text="Product Data" level="H2"/>
+					<ToolbarSpacer />
+				</content>
+			</OverflowToolbar>
+		</headerToolbar>
+		<columns>
+			<Column
+				width="12em"
+                hAlign="Begin">
+				<Text text="Line Item" />
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true"
+                hAlign="Center">
+				<Text text="Open QTY" />
+			</Column>
+			<Column
+				minScreenWidth="Desktop"
+				demandPopin="true"
+				hAlign="Center">
+				<Text text="To be shipped" />
+			</Column>
+			<Column
+				minScreenWidth="Desktop"
+				demandPopin="true"
+				hAlign="Center">
+				<Text text="Mfg. Date" />
+			</Column>
+			<Column
+				hAlign="Center">
+				<Text text="Vendor Batch" />
+			</Column>
+            <Column
+				hAlign="Center">
+				<Text text="Material Number" />
+			</Column>
+            <Column
+				hAlign="End">
+				<Text text="Material description" />
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem vAlign="Middle">
+				<cells>
+					<ObjectIdentifier
+						title="{app>PURCHASE_ORDER_ITEM_NO}"/>
+					<Text
+						text="{app>OPEN_QTY}" />
+					<Text
+						text="{app>TOTAL_QTY}" />
+                    <DatePicker />
+                    <Input value="" editable="false" />
+                    <Text
+						text="{app>MATERIAL_NO}" />
+                    <Text
+						text="{app>MATERIAL_DESC}" />    
+					
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+
+
+	</Panel>
+</core:FragmentDefinition>

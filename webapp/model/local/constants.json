@@ -1,0 +1,78 @@
+{
+    "ABAP_TRUE": "X",
+    "MESSAGE_TYPE_CODES": {
+        "ERROR": "E",
+        "WARNING": "W",
+        "INFORMATION": "I",
+        "SUCCESS": "S"
+    },
+    "APP_MODE": {
+        "SUPPLIER": "S",
+        "BUYER": "B"
+    },
+	"ALERT_TYPES": {
+		"ALL_ALERTS": "ALL",
+        "ANY_ALERTS": "ANY",
+		"CONFIRMATION_MISSING": "CM",
+		"CONFIRMATION_OVERDUE": "CO",
+		"DELIVERY_REMINDER": "DR",
+		"DELIVERY_OVERDUE": "DO",
+        "TAX_COLLECTION": "TC",
+        "MILESTONE": "MS",
+        "NO_ALERTS": "NA"
+	},
+    "ALERTS_CONFIG": {
+        "ALL": {
+            "ALERT_TYPE_TEXT_ID": "allPOItemsFullName",
+            "ALERT_ICON": "",
+            "SHOW_ALL": true
+            
+        },
+        "ANY": {
+			"ALERT_TYPE_TEXT_ID": "anyAlertFullName",
+			"ALERT_ICON": "sap-icon://warning",
+			"SHOW_ALL": false
+		},
+        "CM": {
+            "ALERT_TYPE_TEXT_ID": "confirmationMissingFullName",
+            "ALERT_ICON": "sap-icon://multi-select",
+            "SHOW_ALL": false
+        },
+        "CO": {
+            "ALERT_TYPE_TEXT_ID": "confirmationOverdueFullName",
+            "ALERT_ICON": "sap-icon://multi-select",
+            "SHOW_ALL": false
+        },
+        "DR": {
+            "ALERT_TYPE_TEXT_ID": "deliveryReminderFullName",
+            "ALERT_ICON": "sap-icon://shipping-status",
+            "SHOW_ALL": false
+        },
+        "DO": {
+            "ALERT_TYPE_TEXT_ID": "deliveryOverdueFullName",
+            "ALERT_ICON": "sap-icon://shipping-status",
+            "SHOW_ALL": false
+        },
+        "TC": {
+            "ALERT_TYPE_TEXT_ID": "taxCollectionFullName",
+            "ALERT_ICON": "sap-icon://waiver",
+            "SHOW_ALL": false
+        },
+        "MS": {
+            "ALERT_TYPE_TEXT_ID": "Milestone",
+            "ALERT_ICON": "sap-icon://rhombus-milestone",
+            "SHOW_ALL": false
+        },
+        "NA": {
+            "ALERT_TYPE_TEXT_ID": "noAlertFullName",
+            "ALERT_ICON": "sap-icon://circle-task",
+            "SHOW_ALL": false
+        }
+    },
+    "COMMENT_TAGS": {
+        "CONFIRMATION": "#CONFIRMATION",
+        "VAT": "#VAT",
+        "DELIVERY": "#DELIVERY"
+    },
+    "TARGET_DESTINATION": "OSP_API_ROUTER"
+}

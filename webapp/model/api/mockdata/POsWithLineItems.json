@@ -1,0 +1,366 @@
+{
+	"RESPONSE": [
+		{
+			"PURCHASE_ORDER_NO": "30120104040",
+			"SAP_SYSTEM_ID": "FNH",
+			"INCOTERMS": "FCA",
+			"INCOTERMS_DEL_LOC": "SELLERS PREMISE",
+			"LINE_ITEMS": [
+				{
+					"PURCHASE_ORDER_NO": "30120104040",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00010",
+					"SHIPPED_QTY": 4,
+					"OPEN_QTY": 8,
+					"TOTAL_QTY": 12,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 6,
+					"MATERIAL_NO": "P0038444600",
+					"MATERIAL_DESC": "CYLINDER, COMBUSTOR TRANSITION",
+					"DESTINATION": "Siemens Energy, Inc., 4400 Alafaya, Orlando, FL",
+					"SERIALIZED": "X"
+				},
+				{
+					"PURCHASE_ORDER_NO": "30120104040",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00020",
+					"SHIPPED_QTY": 80,
+					"OPEN_QTY": 10,
+					"TOTAL_QTY": 90,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 10,
+					"MATERIAL_NO": "P4343442221",
+					"MATERIAL_DESC": "OUTER EXIT SEAL, COMB. TRANSITION",
+					"DESTINATION": "Siemens Energy, Inc., 4400 Alafaya, Orlando, FL",
+					"SERIALIZED": "X"
+				},
+				{
+					"PURCHASE_ORDER_NO": "30120104040",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00030",
+					"SHIPPED_QTY": 0,
+					"OPEN_QTY": 100,
+					"TOTAL_QTY": 100,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 0,
+					"MATERIAL_NO": "P0038533411",
+					"MATERIAL_DESC": "PROTECTIVE TUBE",
+					"DESTINATION": "Siemens Energy, Inc., 4400 Alafaya, Orlando, FL",
+					"SERIALIZED": "X"
+				},
+				{
+					"PURCHASE_ORDER_NO": "30120104040",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00040",
+					"SHIPPED_QTY": 10,
+					"OPEN_QTY": 10,
+					"TOTAL_QTY": 20,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 3,
+					"MATERIAL_NO": "P0098999900",
+					"MATERIAL_DESC": "GUIDE TUBE, THERMOCOUPLE, MAIN",
+					"DESTINATION": "Siemens Energy, Inc., 4400 Alafaya, Orlando, FL",
+					"SERIALIZED": "X"
+				}
+			]
+		},
+		{
+			"PURCHASE_ORDER_NO": "30120102211",
+			"SAP_SYSTEM_ID": "FNH",
+			"INCOTERMS": "FCA",
+			"INCOTERMS_DEL_LOC": "SELLERS PREMISE",
+			"LINE_ITEMS": [
+				{
+					"PURCHASE_ORDER_NO1": "30120102211",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00060",
+					"SHIPPED_QTY": 5,
+					"OPEN_QTY": 0,
+					"TOTAL_QTY": 5,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 0,
+					"MATERIAL_NO": "P0038444602",
+					"MATERIAL_DESC": "CYLINDER, COMBUSTOR TRANSITION v2",
+					"DESTINATION": "Siemens Energy, Inc, C/O Deufol Charlotte, 1900 Continental Blvd.  Suite 400, Charlotte",
+					"SERIALIZED": "X"
+				},
+				{
+					"PURCHASE_ORDER_NO": "30120102211",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00070",
+					"SHIPPED_QTY": 0,
+					"OPEN_QTY": 3,
+					"TOTAL_QTY": 3,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 0,
+					"MATERIAL_NO": "P4343442222",
+					"MATERIAL_DESC": "OUTER EXIT SEAL, COMB. TRANSITION v2",
+					"DESTINATION": "Siemens Energy, Inc v2, C/O Deufol Charlotte, 1955 Continental Blvd.  Suite 400, Charlotte",
+					"SERIALIZED": ""
+				}
+			]
+		},
+		{
+			"PURCHASE_ORDER_NO": "40780102007",
+			"SAP_SYSTEM_ID": "FNH",
+			"INCOTERMS": "FCA",
+			"INCOTERMS_DEL_LOC": "SELLERS PREMISE",
+			"LINE_ITEMS": [
+				{
+					"PURCHASE_ORDER_NO": "40780102007",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00010",
+					"SHIPPED_QTY": 1,
+					"OPEN_QTY": 1,
+					"TOTAL_QTY": 2,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 0,
+					"MATERIAL_NO": "P9938444602",
+					"MATERIAL_DESC": "TURBINE",
+					"DESTINATION": "Siemens Energy, Inc, C/O Deufol Charlotte",
+					"SERIALIZED": ""
+				}
+			]
+		},
+		{
+			"PURCHASE_ORDER_NO": "65612010221",
+			"SAP_SYSTEM_ID": "FNH",
+			"INCOTERMS": "FCA",
+			"INCOTERMS_DEL_LOC": "SELLERS PREMISE",
+			"LINE_ITEMS": [
+				{
+					"PURCHASE_ORDER_NO": "65612010221",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00010",
+					"SHIPPED_QTY": 3,
+					"OPEN_QTY": 2,
+					"TOTAL_QTY": 5,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 2,
+					"MATERIAL_NO": "P0038444602",
+					"MATERIAL_DESC": "CYLINDER, COMBUSTOR TRANSITION v2",
+					"DESTINATION": "Siemens Energy, Inc, C/O Deufol Charlotte, 1900 Continental Blvd.  Suite 400, Charlotte",
+					"SERIALIZED": "X"
+				},
+				{
+					"PURCHASE_ORDER_NO": "65612010221",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00020",
+					"SHIPPED_QTY": 2,
+					"OPEN_QTY": 8,
+					"TOTAL_QTY": 10,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 0,
+					"MATERIAL_NO": "P4343442222",
+					"MATERIAL_DESC": "OUTER EXIT SEAL, COMB. TRANSITION v2",
+					"DESTINATION": "Siemens Energy, Inc, C/O Deufol Charlotte, 1900 Continental Blvd.  Suite 400, Charlotte",
+					"SERIALIZED": ""
+				}
+			]
+		},
+		{
+			"PURCHASE_ORDER_NO": "65780102007",
+			"SAP_SYSTEM_ID": "FNH",
+			"INCOTERMS": "FCA",
+			"INCOTERMS_DEL_LOC": "SELLERS PREMISE",
+			"LINE_ITEMS": [
+				{
+					"PURCHASE_ORDER_NO": "65780102007",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00090",
+					"SHIPPED_QTY": 21,
+					"OPEN_QTY": 1,
+					"TOTAL_QTY": 22,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 1,
+					"MATERIAL_NO": "P9938444602",
+					"MATERIAL_DESC": "TURBINE",
+					"DESTINATION": "Siemens Energy, Inc, C/O Deufol Charlotte",
+					"SERIALIZED": "X"
+				}
+			]
+		},
+		{
+			"PURCHASE_ORDER_NO": "54666640404",
+			"SAP_SYSTEM_ID": "FNH",
+			"INCOTERMS": "FCA",
+			"INCOTERMS_DEL_LOC": "SELLERS PREMISE",
+			"LINE_ITEMS": [
+				{
+					"PURCHASE_ORDER_NO": "54666640404",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00010",
+					"SHIPPED_QTY": 4,
+					"OPEN_QTY": 8,
+					"TOTAL_QTY": 12,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 6,
+					"MATERIAL_NO": "P0038444600",
+					"MATERIAL_DESC": "CYLINDER, COMBUSTOR TRANSITION",
+					"DESTINATION": "Siemens Energy, Inc., 4400 Alafaya, Orlando, FL",
+					"SERIALIZED": "X"
+				},
+				{
+					"PURCHASE_ORDER_NO": "54666640404",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00020",
+					"SHIPPED_QTY": 80,
+					"OPEN_QTY": 10,
+					"TOTAL_QTY": 90,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 10,
+					"MATERIAL_NO": "P4343442221",
+					"MATERIAL_DESC": "OUTER EXIT SEAL, COMB. TRANSITION",
+					"DESTINATION": "Siemens Energy, Inc., 4400 Alafaya, Orlando, FL",
+					"SERIALIZED": "X"
+				},
+				{
+					"PURCHASE_ORDER_NO": "54666640404",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00030",
+					"SHIPPED_QTY": 0,
+					"OPEN_QTY": 100,
+					"TOTAL_QTY": 100,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 0,
+					"MATERIAL_NO": "P0038533411",
+					"MATERIAL_DESC": "PROTECTIVE TUBE",
+					"DESTINATION": "Siemens Energy, Inc., 4400 Alafaya, Orlando, FL",
+					"SERIALIZED": ""
+				},
+				{
+					"PURCHASE_ORDER_NO": "54666640404",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00040",
+					"SHIPPED_QTY": 10,
+					"OPEN_QTY": 10,
+					"TOTAL_QTY": 20,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 3,
+					"MATERIAL_NO": "P0098999900",
+					"MATERIAL_DESC": "GUIDE TUBE, THERMOCOUPLE, MAIN",
+					"DESTINATION": "Siemens Energy, Inc., 4400 Alafaya, Orlando, FL",
+					"SERIALIZED": "X"
+				}
+			]
+		},
+		{
+			"PURCHASE_ORDER_NO": "80120104040",
+			"SAP_SYSTEM_ID": "FNH",
+			"INCOTERMS": "FCA",
+			"INCOTERMS_DEL_LOC": "SELLERS PREMISE",
+			"LINE_ITEMS": [
+				{
+					"PURCHASE_ORDER_NO": "80120104040",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00010",
+					"SHIPPED_QTY": 4,
+					"OPEN_QTY": 8,
+					"TOTAL_QTY": 12,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 6,
+					"MATERIAL_NO": "P0038444600",
+					"MATERIAL_DESC": "CYLINDER, COMBUSTOR TRANSITION",
+					"DESTINATION": "Siemens Energy, Inc., 4400 Alafaya, Orlando, FL",
+					"SERIALIZED": "X"
+				},
+				{
+					"PURCHASE_ORDER_NO": "80120104040",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00020",
+					"SHIPPED_QTY": 80,
+					"OPEN_QTY": 10,
+					"TOTAL_QTY": 90,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 10,
+					"MATERIAL_NO": "P4343442221",
+					"MATERIAL_DESC": "OUTER EXIT SEAL, COMB. TRANSITION",
+					"DESTINATION": "Siemens Energy, Inc., 4400 Alafaya, Orlando, FL",
+					"SERIALIZED": "X"
+				},
+				{
+					"PURCHASE_ORDER_NO": "80120104040",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00030",
+					"SHIPPED_QTY": 0,
+					"OPEN_QTY": 100,
+					"TOTAL_QTY": 100,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 0,
+					"MATERIAL_NO": "P0038533411",
+					"MATERIAL_DESC": "PROTECTIVE TUBE",
+					"DESTINATION": "Siemens Energy, Inc., 4400 Alafaya, Orlando, FL",
+					"SERIALIZED": "X"
+				},
+				{
+					"PURCHASE_ORDER_NO": "80120104040",
+					"SAP_SYSTEM_ID": "FNH",
+					"PURCHASE_ORDER_ITEM_NO": "00040",
+					"SHIPPED_QTY": 10,
+					"OPEN_QTY": 10,
+					"TOTAL_QTY": 20,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 3,
+					"MATERIAL_NO": "P0098999900",
+					"MATERIAL_DESC": "GUIDE TUBE, THERMOCOUPLE, MAIN",
+					"DESTINATION": "Siemens Energy, Inc., 4400 Alafaya, Orlando, FL",
+					"SERIALIZED": "X"
+				}
+			]
+		},
+		{
+			"PURCHASE_ORDER_NO": "11120104040",
+			"SAP_SYSTEM_ID": "OSP",
+			"INCOTERMS": "FCA",
+			"INCOTERMS_DEL_LOC": "SELLERS PREMISE",
+			"LINE_ITEMS": [
+				{
+					"PURCHASE_ORDER_NO": "11120104040",
+					"SAP_SYSTEM_ID": "OSP",
+					"PURCHASE_ORDER_ITEM_NO": "00070",
+					"SHIPPED_QTY": 5,
+					"OPEN_QTY": 5,
+					"TOTAL_QTY": 10,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 0,
+					"MATERIAL_NO": "P0038444600",
+					"MATERIAL_DESC": "CYLINDER, COMBUSTOR TRANSITION",
+					"DESTINATION": "Siemens Energy, Inc., 4400 Alafaya, Orlando, FL",
+					"SERIALIZED": ""
+				},
+				{
+					"PURCHASE_ORDER_NO": "11120104040",
+					"SAP_SYSTEM_ID": "OSP",
+					"PURCHASE_ORDER_ITEM_NO": "00090",
+					"SHIPPED_QTY": 10,
+					"OPEN_QTY": 7,
+					"TOTAL_QTY": 20,
+					"UOM": "PCS",
+					"SN_ASSIGNED": 0,
+					"MATERIAL_NO": "P0038444600",
+					"MATERIAL_DESC": "CYLINDER, COMBUSTOR TRANSITION",
+					"DESTINATION": "Siemens Energy, Inc., 4400 Alafaya, Orlando, FL",
+					"SERIALIZED": ""
+				}
+			]
+		}
+	],
+	"SYSTEM_INFO": [
+		{
+			"SAP_SYSTEM_ID": "FNH",
+			"SAP_SYSTEM_AVAILABLE": true
+		},
+		{
+			"SAP_SYSTEM_ID": "PS1",
+			"SAP_SYSTEM_AVAILABLE": true
+		},
+		{
+			"SAP_SYSTEM_ID": "OSP",
+			"SAP_SYSTEM_AVAILABLE": true
+		},
+		{
+			"SAP_SYSTEM_ID": "PT1",
+			"SAP_SYSTEM_AVAILABLE": false
+		}
+	]
+}

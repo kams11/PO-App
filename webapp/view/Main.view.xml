@@ -1,0 +1,69 @@
+<mvc:View controllerName="com.example.podemo.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+	xmlns:form="sap.ui.layout.form"
+	xmlns:u="sap.ui.unified"
+	xmlns:layout="sap.ui.layout">
+    <f:DynamicPage
+			stickySubheaderProvider="CreateProductWizard"
+			toggleHeaderOnTitleClick="false"
+			class="sapUiNoContentPadding"
+			showFooter="true">
+			
+			<f:content>
+				<Wizard id="CreatePOWizard"
+						class="sapUiResponsivePadding--header sapUiResponsivePadding--content"
+						showNextButton="false"
+						navigationChange="handleNavigationChange"
+						renderMode="Page">
+					<WizardStep id="ProductTypeStep"
+								title="Select PO Items"
+								validated="true"
+								activate="productTypeActivate">
+						<core:Fragment
+                                fragmentName="com.example.podemo.view.fragments.POitems"
+                                type="XML"/>
+					</WizardStep>
+					<WizardStep id="SNInfoStep"
+								validated="false"
+								title="Select Serial Numbers"
+								activate="snInfoValidation">
+						<core:Fragment
+                                fragmentName="com.example.podemo.view.fragments.SerialNumbers"
+                                type="XML"/>
+					</WizardStep>
+					<WizardStep id="LogisticsInfoStep"
+								validated="true"
+								activate="logisticsInfoStepActivation"
+								title="Provide Logistics Info">
+						<core:Fragment fragmentName="com.example.podemo.view.fragments.LogisticInfo"
+                                        type="XML"/>
+					</WizardStep>
+					<WizardStep
+							id="ReviewPage"
+							activate="reviewActivate"
+							complete="reviewComplete"
+							validated="true"
+							title="Confirm Shipment">
+								
+								<core:Fragment
+                                fragmentName="com.example.podemo.view.fragments.Shipment"
+                                type="XML"/>
+					</WizardStep>
+					
+				</Wizard>
+			</f:content>
+
+			<f:footer>
+				<OverflowToolbar>
+					<ToolbarSpacer/>
+					<Button text="Previous" visible="{/backButtonVisible}" press="onDialogBackButton" />
+					<Button text="Next Step" type="Emphasized" enabled="{/nextButtonEnabled}" visible="{/nextButtonVisible}" press="onDialogNextButton" />
+					<Button icon="sap-icon://status-completed" type="Success" text="Submit" visible="{/finishButtonVisible}" press="handleWizardSubmit" />
+					<Button	text="Cancel" type="Transparent" press="handleWizardCancel"/>
+				</OverflowToolbar>
+			</f:footer>
+		</f:DynamicPage>
+</mvc:View>

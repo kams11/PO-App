@@ -1,0 +1,65 @@
+<core:FragmentDefinition
+	    xmlns="sap.ui.table"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns:m="sap.m"
+        xmlns:tnt="sap.tnt"
+        xmlns:u="sap.ui.unified"
+        xmlns:core="sap.ui.core"
+        height="100%">
+	
+            <TreeTable
+                    id="TreeTablePOitems"
+                    rows="{path: 'app>/REQUEST_PO/RESPONSE'}"
+                    selectionMode="MultiToggle"
+                    selectionBehavior="RowSelector"
+                    rowSelectionChange="onRowSelectionChange"
+                    enableSelectAll="false"
+                    ariaLabelledBy="title">
+                <extension>
+                    <m:OverflowToolbar style="Clear">
+                        <m:Title id="title" text="Purchase Orders"/>
+                        <m:MessageStrip class="sapUiSmallMargin"
+										text="Select one or more items of the same PO and Destination."
+										showIcon="true"/>
+                        <m:ToolbarSpacer/>
+                        <m:Button icon="sap-icon://refresh" press="onRefreshPO"/>
+                        <m:Button icon="sap-icon://collapse-all" text="Collapse all" press="onCollapseAllitemsPress"/>
+                        <m:Button icon="sap-icon://expand-all" text="Expand all" press="onExpandAllitemsPress"/>
+                        	<tnt:InfoLabel id="il1" text="1 system not connected" renderMode="Narrow" colorScheme="1"/>
+                    </m:OverflowToolbar>
+                </extension>
+                <columns >
+                    <Column width="13rem">
+                        <m:Label text="PO Line Items"/>
+                        <template>
+                            <m:Text text="{app>PURCHASE_ORDER_NO}" wrapping="false" />
+                        </template>
+                    </Column>
+                    <Column width="13rem">
+                        <m:Label text="Shipped/Total QTY"/>
+                        <template>
+                             <m:Text text="{app>SHIPPED_QTY}" wrapping="false" />
+                        </template>
+                    </Column>
+                    <Column width="13rem">
+                        <m:Label text="Material Number"/>
+                        <template>
+                            <m:Text text="{app>MATERIAL_NO}" />
+                        </template>
+                    </Column>
+                    <Column width="16rem">
+                        <m:Label text="Material description"/>
+                        <template>
+                            <m:Text text="{app>MATERIAL_DESC}" />
+                        </template>
+                    </Column>
+                    <Column width="18rem">
+                        <m:Label text="Destination"/>
+                        <template>
+                            <m:Text text="{app>DESTINATION}"/>
+                        </template>
+                    </Column>
+                   
+                </columns>
+            </TreeTable>
+</core:FragmentDefinition>

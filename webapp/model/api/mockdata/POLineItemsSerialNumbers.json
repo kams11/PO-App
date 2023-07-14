@@ -1,0 +1,227 @@
+{
+    "RESPONSE": [
+        { 
+            "PURCHASE_ORDER_NO": "30120104040",
+            "SAP_SYSTEM_ID": "FNH",
+            "PURCHASE_ORDER_ITEM_NO": "00010",
+            "MATERIAL_NO": "P0038444600",
+            "MATERIAL_DESC": "CYLINDER, COMBUSTOR TRANSITION",
+            "SERIAL_NUMBERS": [
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00010",
+                    "SERIAL_NUMBER": "31640829",
+                    "READY_TO_BE_SHIPPED": true
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00010",
+                    "SERIAL_NUMBER": "31640830",
+                    "READY_TO_BE_SHIPPED": true
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00010",
+                    "SERIAL_NUMBER": "31640831",
+                    "READY_TO_BE_SHIPPED": true
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00010",
+                    "SERIAL_NUMBER": "31640832",
+                    "READY_TO_BE_SHIPPED": true
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00010",
+                    "SERIAL_NUMBER": "31640833",
+                    "READY_TO_BE_SHIPPED": true
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00010",
+                    "SERIAL_NUMBER": "31640834",
+                    "READY_TO_BE_SHIPPED": true
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00010",
+                    "SERIAL_NUMBER": "31640835",
+                    "READY_TO_BE_SHIPPED": false
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00010",
+                    "SERIAL_NUMBER": "31640836",
+                    "READY_TO_BE_SHIPPED": false
+                }            
+            ]
+        },
+        { 
+            "PURCHASE_ORDER_NO": "30120104040",
+            "SAP_SYSTEM_ID": "FNH",
+            "PURCHASE_ORDER_ITEM_NO": "00020",
+            "MATERIAL_NO": "P4343442221",
+            "MATERIAL_DESC": "OUTER EXIT SEAL, COMB. TRANSITION",
+            "SERIAL_NUMBERS": [
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00020",
+                    "SERIAL_NUMBER": "21640831",
+                    "READY_TO_BE_SHIPPED": true
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00020",
+                    "SERIAL_NUMBER": "21640832",
+                    "READY_TO_BE_SHIPPED": true
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00020",
+                    "SERIAL_NUMBER": "21640833",
+                    "READY_TO_BE_SHIPPED": true
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00020",
+                    "SERIAL_NUMBER": "21640834",
+                    "READY_TO_BE_SHIPPED": true
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00020",
+                    "SERIAL_NUMBER": "21640835",
+                    "READY_TO_BE_SHIPPED": true
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00020",
+                    "SERIAL_NUMBER": "21640836",
+                    "READY_TO_BE_SHIPPED": true
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00020",
+                    "SERIAL_NUMBER": "21640837",
+                    "READY_TO_BE_SHIPPED": true
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00020",
+                    "SERIAL_NUMBER": "21640838",
+                    "READY_TO_BE_SHIPPED": true
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00020",
+                    "SERIAL_NUMBER": "21640839",
+                    "READY_TO_BE_SHIPPED": true
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00020",
+                    "SERIAL_NUMBER": "21640840",
+                    "READY_TO_BE_SHIPPED": true
+                }
+            ]
+        },
+        { 
+            "PURCHASE_ORDER_NO": "30120104040",
+            "SAP_SYSTEM_ID": "FNH",
+            "PURCHASE_ORDER_ITEM_NO": "00040",
+            "MATERIAL_NO": "P0098999900",
+            "MATERIAL_DESC": "GUIDE TUBE, THERMOCOUPLE, MAIN",
+            "SERIAL_NUMBERS": [
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00040",
+                    "SERIAL_NUMBER": "41660831",
+                    "READY_TO_BE_SHIPPED": false
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00040",
+                    "SERIAL_NUMBER": "41660832",
+                    "READY_TO_BE_SHIPPED": false
+                }, 
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00040",
+                    "SERIAL_NUMBER": "41660833",
+                    "READY_TO_BE_SHIPPED": false
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00040",
+                    "SERIAL_NUMBER": "41660834",
+                    "READY_TO_BE_SHIPPED": false
+                },
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00040",
+                    "SERIAL_NUMBER": "41660835",
+                    "READY_TO_BE_SHIPPED": false
+                },        
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00040",
+                    "SERIAL_NUMBER": "41660836",
+                    "READY_TO_BE_SHIPPED": false
+                }, 
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00040",
+                    "SERIAL_NUMBER": "41660837",
+                    "READY_TO_BE_SHIPPED": false
+                }, 
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00040",
+                    "SERIAL_NUMBER": "41660838",
+                    "READY_TO_BE_SHIPPED": false
+                }, 
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00040",
+                    "SERIAL_NUMBER": "41660839",
+                    "READY_TO_BE_SHIPPED": false
+                }, 
+                {
+                    "PURCHASE_ORDER_NO": "30120104040",
+                    "SAP_SYSTEM_ID": "FNH",
+                    "PURCHASE_ORDER_ITEM_NO": "00040",
+                    "SERIAL_NUMBER": "41660840",
+                    "READY_TO_BE_SHIPPED": false
+                }
+            ]
+        }
+    ]
+}

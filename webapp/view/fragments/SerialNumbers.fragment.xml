@@ -1,0 +1,52 @@
+<core:FragmentDefinition
+	 xmlns="sap.ui.table"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns:m="sap.m"
+        xmlns:u="sap.ui.unified"
+        xmlns:core="sap.ui.core"
+        height="100%">
+	
+            <TreeTable
+                    id="TreeTablePOSerialNumbers"
+                    rows="{path: 'app>/REQUEST_POSN'}"
+                    selectionMode="MultiToggle"
+                    selectionBehavior="RowSelector"
+                    rowSelectionChange="onSNSelectionChange"
+                    enableSelectAll="false"
+                    ariaLabelledBy="title">
+                <extension>
+                    <m:OverflowToolbar style="Clear">
+                        <m:Title id="titlePO" text="Line Items"/>
+                        <m:MessageStrip class="sapUiSmallMargin"
+										text="Select serial numbers for shipment."
+										showIcon="true"/>
+                        <m:ToolbarSpacer/>
+                        <m:Button icon="sap-icon://multiselect-all" text="Select all available" press="onSelectAllRowsPress"/>
+                        <m:Button icon="sap-icon://multiselect-none" text="Deselect all" press="onDeselectAllRowsPress"/>
+                        <m:Button icon="sap-icon://collapse-all" text="Collapse all" press="onCollapseAllPress"/>
+                        <m:Button icon="sap-icon://expand-all" text="Expand all" press="onExpandAllPress"/>
+                    </m:OverflowToolbar>
+                </extension>
+                <columns>
+                    <Column width="17rem">
+                        <m:Label text="Line items and Serial numbers"/>
+                        <template>
+                            <m:Text text="{app>PURCHASE_ORDER_ITEM_NO}" wrapping="false" />
+                        </template>
+                    </Column>
+                    <Column width="25rem">
+                        <m:Label text="Material Number"/>
+                        <template>
+                            <m:Text id="_IDGenText1" text="{app>MATERIAL_NO}" wrapping="false" />
+                        </template>
+                    </Column>
+                    <Column width="30rem">
+                        <m:Label text="Material description"/>
+                        <template>
+                            <m:Text text="{app>MATERIAL_DESC}" wrapping="false" />
+                        </template>
+                    </Column>
+                    
+                </columns>
+            </TreeTable>
+</core:FragmentDefinition>

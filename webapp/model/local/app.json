@@ -1,0 +1,42 @@
+{
+	"BUSY_INDICATORS": {
+		"PO_ITEMS_TABLE": false,
+        "PO_ITEMS_TABLE_HEADER_TOOLBAR": false,
+        "ALERT_TYPES_ICON_TAB_BAR": false,
+        "DELIVERY_SCHEDULE_TABLE": false,
+        "CONFIRMATIONS_TABLE": false,
+        "DELIVERIES_TABLE": false,
+        "VAT_CODES_SELECT": false,
+        "COUNTRIES_OF_ORIGIN": false,
+        "COMMENT_SECTION": false,
+        "MILESTONE_SECTION": false
+	},
+    "VISIBILITY": {
+        "MILESTONE_SECTION": false,
+        "VAT_CODE_SAVING": false,
+        "BTN_EDIT_DATE" : true,
+        "BTN_SUBMIT_DATE": false,
+        "BTN_CANCEL_DATE": false,
+        "DATE_NOTIFICAT": false
+    },
+    "EDITABLE":{
+        "MS_TO_BE_DATE": false,
+        "MS_PLANNED_DATE":false,
+        "MS_COMPLETED_DATE":false
+    },
+    "APP_MODE": "B",
+    "ALERT_TYPES_ICON_TAB_BAR_FILTERS": [],
+	"PO_ITEMS": [],
+    "PO_ITEMS_COUNT": 0,
+    "PO_ITEMS_TO_BE_REMOVED": [],
+    "UNIQUE_PO_NUMBERS": [],
+    "EXPORT_FILTERS": {
+        "FINAL_DELIVERY_DATE": {
+            "START_DATE": null,
+            "END_DATE": null
+        }
+    },
+    "COUNTRIES_OF_ORIGIN": {},
+    "CURRENT_COUNTRIES_OF_ORIGIN": [],
+    "SYSTEM_INFO": []
+}
